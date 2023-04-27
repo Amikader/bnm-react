@@ -1,0 +1,31 @@
+.container-pdf{
+    border: 1px double black;
+    /* border-bottom: none; */
+    width: 80%;
+    height: 710px;
+    padding: 2% 10%;
+}
+.p-pdf{
+    font-size: 120%;
+    font-weight: bolder;
+}
+.container-pdf div{
+    padding: 1% 0;
+}
+.container-pdf .header-pdf{
+    text-align: center;
+    background-color: #ebebeb;
+    padding: 0.01px;
+}
+.ul-pdf{
+    list-style: none;
+    font-weight: bold;
+}
+.span-pdf{
+    margin-left: 6%;
+    margin-right: 3%;
+}
+.visa{
+    margin-left: 3%;
+    margin-right: 3%;
+}

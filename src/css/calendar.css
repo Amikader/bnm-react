@@ -1,0 +1,108 @@
+button.react-calendar__navigation__label {
+    font-weight: bolder;
+    font-family: monospace;
+    color: #44507b;
+    font-size: 25px;
+}
+.react-calendar__month-view__weekdays__weekday,
+.react-calendar__month-view__weekdays__weekday.react-calendar__month-view__weekdays__weekday--weekend {
+    font-weight: bolder;
+    font-family: monospace;
+    color: #44507b;
+    font-size: 16px;
+}
+abbr {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 16px;
+}
+button.react-calendar__tile.react-calendar__month-view__days__day {
+    color: #44507b;
+}
+button.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--range.react-calendar__tile--rangeStart.react-calendar__month-view__days__day {
+    border-radius: 40% 0px 0px 40%;
+    background-color: #efefef;
+}
+button.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--range.react-calendar__tile--rangeEnd.react-calendar__month-view__days__day{
+    border-radius: 0px 40% 40% 0px;
+}
+button.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--range.react-calendar__month-view__days__day {
+    background-color: #efefef;
+    border-top: 1px dotted;
+    border-bottom: 1px dotted;
+}
+button.react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--neighboringMonth {
+    color: #ff6a00b3;
+}
+button.react-calendar__tile.react-calendar__tile--now.react-calendar__month-view__days__day {
+    background-color: #465382;
+    border-radius: 45%;
+    color: white;
+}
+.react-calendar {
+    width: 100%;
+    height: 52%;
+    min-height: 321px;
+    border-radius: 10px;
+    box-shadow: rgb(104 92 205 / 20%) 0px 7px 29px 0px;
+}
+.cl-container{
+    width: 86.1%;
+    height: 100%;
+    position: fixed;
+    top: 7.5%;
+    right: 0;
+    background-color: #d1c9c945;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    align-items: center;
+    display: none;
+    justify-items: center;
+    z-index: 1000;
+}
+.cl-black-container {
+    width: 86.1%;
+    height: 100%;
+    position: fixed;
+    top: 7.5%;
+    right: 0;
+    background-color: #181717b5;
+    display: grid;
+    grid-template-columns: 55% 40%;
+    align-items: center;
+    justify-items: center;
+}
+.annuler-conf {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.annuler-conf button {
+    width: 30%;
+    height: 35px;
+    margin: 2px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #3d486b;
+    background-color: white;
+    font-weight: bolder;
+    box-shadow: rgb(104 92 205 / 20%) 0px 7px 29px 0px;
+}
+.annuler-conf button:hover{
+    background-color: #3d486b;
+    color: white;
+}
+.hide {
+    position: fixed;
+    right: 2%;
+    top: 11%;
+    color: white;
+    font-size: 20px;
+}
+.hide span{
+    cursor: pointer;
+}
