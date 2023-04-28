@@ -169,7 +169,7 @@ const NewDemands = ({page,setPage,setTotalPages,dateConge,dureeConge,typeConge,f
                 duree={infoDemande.duree} 
                 date={infoDemande.date} 
                 decision={infoDemande.decision} 
-                nouvelle={nouvelle()} 
+                nouvelle={nouvelle} 
             />
 
     </>
