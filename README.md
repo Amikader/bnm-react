@@ -3,10 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## After downloading this project, enter the command:
-npm config set legacy-peer-deps true
-npm i
-ىى
-ى
+### `npm config set legacy-peer-deps true`
+### `npm i`
+
 ## Available Scripts
 
 In the project directory, you can run:
